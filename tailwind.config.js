@@ -25,6 +25,7 @@ module.exports = {
             current: 'currentColor',
             'primary-500':'#20B486',
             'primary-900':'#06241B',
+            'secondary-50': '#FFFAF5',
             'gray-700': '#363A3D',
             'gray-600': '#52565C',
             'gray-500': '#6D737A',
