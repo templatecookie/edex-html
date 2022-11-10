@@ -25,6 +25,9 @@ module.exports = {
         },
         colors: {
             current: 'currentColor',
+            white: '#FFFFFF',
+            black: '#000000',
+            'primary-50': '#E9F8F3',
             'primary-500':'#20B486',
             'primary-900':'#06241B',
             'secondary-50': '#FFFAF5',
@@ -34,6 +37,9 @@ module.exports = {
             'gray-black': '#1B1D1F',
             'gray-50': '#E7E9EB',
             'gray-white': '#FFFFFF',
+            'gray-custom': '#E7E9EB',
+            'pink-200': '#FFEEF0',
+            'blue-200': '#F0F7FF'
         },
     },
     plugins: [],

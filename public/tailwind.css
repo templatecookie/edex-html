@@ -716,7 +716,6 @@ video {
 .isolation-auto {
   isolation: auto;
 }
-
 .z-30 {
   z-index: 30;
 }
@@ -867,12 +866,10 @@ video {
 
 .w-\[677px\] {
   width: 677px;
-}
 
 .w-full {
   width: 100%;
 }
-
 .w-\[310px\] {
   width: 310px;
 }
@@ -1429,7 +1426,6 @@ video {
 .gap-6 {
   gap: 1.5rem;
 }
-
 .gap-2 {
   gap: 0.5rem;
 }
@@ -1849,6 +1845,34 @@ video {
   background-color: rgb(255 250 245 / var(--tw-bg-opacity));
 }
 
+.bg-white {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.bg-primary-50 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(233 248 243 / var(--tw-bg-opacity));
+}
+
+.bg-pink-200 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 238 240 / var(--tw-bg-opacity));
+}
+
+.bg-blue-200 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(240 247 255 / var(--tw-bg-opacity));
+}
+
+.bg-primary-50\/70 {
+  background-color: rgb(233 248 243 / 0.7);
+}
+
+.bg-gray-custom\/50 {
+  background-color: rgb(231 233 235 / 0.5);
+}
+
 .bg-\[rgb\(255\2c 0\2c 0\)\] {
   --tw-bg-opacity: 1;
   background-color: rgb(255 0 0 / var(--tw-bg-opacity));
@@ -1963,6 +1987,7 @@ video {
   -o-object-fit: scale-down;
      object-fit: scale-down;
 }
+
 
 .py-6 {
   padding-top: 1.5rem;
@@ -2256,6 +2281,24 @@ video {
   color: rgb(27 29 31 / var(--tw-text-opacity));
 }
 
+<<<<<<< HEAD
+=======
+.text-gray-500 {
+  --tw-text-opacity: 1;
+  color: rgb(109 115 122 / var(--tw-text-opacity));
+}
+
+.text-gray-black {
+  --tw-text-opacity: 1;
+  color: rgb(27 29 31 / var(--tw-text-opacity));
+}
+
+.text-gray-600 {
+  --tw-text-opacity: 1;
+  color: rgb(82 86 92 / var(--tw-text-opacity));
+}
+
+>>>>>>> d65a0c5c29266a974c8a9310f0ac5dec8a38acfd
 .text-\[\#20B486\] {
   --tw-text-opacity: 1;
   color: rgb(32 180 134 / var(--tw-text-opacity));
@@ -2472,6 +2515,94 @@ video {
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow) !important;
 }
 
+.shadow-\[-15px_15px_100px_rgba\(109\2c 115\2c 122\2c 0\.24\)\] {
+  --tw-shadow: -15px 15px 100px rgba(109,115,122,0.24);
+  --tw-shadow-colored: -15px 15px 100px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.shadow-xl {
+  --tw-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 20px 25px -5px var(--tw-shadow-color), 0 8px 10px -6px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.shadow-\[10px_2px_48px_20px_rgba\(0\2c 0\2c 0\2c 0\.13\)\] {
+  --tw-shadow: 10px 2px 48px 20px rgba(0,0,0,0.13);
+  --tw-shadow-colored: 10px 2px 48px 20px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.shadow-\[10px_2px_48px_-2px_rgba\(0\2c 0\2c 0\2c 0\.13\)\] {
+  --tw-shadow: 10px 2px 48px -2px rgba(0,0,0,0.13);
+  --tw-shadow-colored: 10px 2px 48px -2px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.shadow-\[10px_2px_10px_-2px_rgba\(0\2c 0\2c 0\2c 0\.13\)\] {
+  --tw-shadow: 10px 2px 10px -2px rgba(0,0,0,0.13);
+  --tw-shadow-colored: 10px 2px 10px -2px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.shadow-\[10px_2px_20px_-2px_rgba\(0\2c 0\2c 0\2c 0\.13\)\] {
+  --tw-shadow: 10px 2px 20px -2px rgba(0,0,0,0.13);
+  --tw-shadow-colored: 10px 2px 20px -2px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.shadow-\[10px_8px_20px_-2px_rgba\(0\2c 0\2c 0\2c 0\.13\)\] {
+  --tw-shadow: 10px 8px 20px -2px rgba(0,0,0,0.13);
+  --tw-shadow-colored: 10px 8px 20px -2px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.shadow-\[10px_28px_20px_-2px_rgba\(0\2c 0\2c 0\2c 0\.13\)\] {
+  --tw-shadow: 10px 28px 20px -2px rgba(0,0,0,0.13);
+  --tw-shadow-colored: 10px 28px 20px -2px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.shadow-\[10px_18px_20px_-2px_rgba\(0\2c 0\2c 0\2c 0\.13\)\] {
+  --tw-shadow: 10px 18px 20px -2px rgba(0,0,0,0.13);
+  --tw-shadow-colored: 10px 18px 20px -2px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.shadow-\[10px_8px_2px_-2px_rgba\(0\2c 0\2c 0\2c 0\.13\)\] {
+  --tw-shadow: 10px 8px 2px -2px rgba(0,0,0,0.13);
+  --tw-shadow-colored: 10px 8px 2px -2px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.shadow-\[10px_8px_29px_-2px_rgba\(0\2c 0\2c 0\2c 0\.13\)\] {
+  --tw-shadow: 10px 8px 29px -2px rgba(0,0,0,0.13);
+  --tw-shadow-colored: 10px 8px 29px -2px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.shadow-\[10px_8px_20px_-1px_rgba\(0\2c 0\2c 0\2c 0\.13\)\] {
+  --tw-shadow: 10px 8px 20px -1px rgba(0,0,0,0.13);
+  --tw-shadow-colored: 10px 8px 20px -1px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.shadow-\[-4px_4px_20px_rgba\(32\2c 180\2c 134\2c 0\.12\)\] {
+  --tw-shadow: -4px 4px 20px rgba(32,180,134,0.12);
+  --tw-shadow-colored: -4px 4px 20px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.shadow-\[-15px15px100pxrgba\(109\2c 115\2c 122\2c 0\.24\)\] {
+  --tw-shadow-color: -15px15px100pxrgba(109,115,122,0.24);
+  --tw-shadow: var(--tw-shadow-colored);
+}
+
+.shadow-\[\] {
+  --tw-shadow-color: ;
+  --tw-shadow: var(--tw-shadow-colored);
+}
+
 .outline-none {
   outline: 2px solid transparent;
   outline-offset: 2px;
@@ -2572,6 +2703,12 @@ video {
 .backdrop-filter-none {
   -webkit-backdrop-filter: none;
           backdrop-filter: none;
+}
+
+.transition-all {
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
 }
 
 .transition {
