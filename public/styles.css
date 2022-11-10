@@ -34,6 +34,21 @@ footer{
     transition: all 0.5s ease;
     color: var(--primary-900);
 }
+
+.course-item{
+
+    
+}
+
+.course-item:hover link{
+    color: red;
+        }
+
+.course-item:hover.link svg{
+    background: #000;
+}
+
+
 .after-svg{
     position: relative;
 }
@@ -45,6 +60,15 @@ footer{
 }
 .after-svg.instructor:after{
     content: url(./images/svg/instructor-svg.svg);
+}
+.after-svg.popular:after{
+    content: url('./images/svg/popular-svg.svg');
+}
+.after-svg.banner_5000:after{
+    content: url('./images/svg/banner_5000.svg');
+}
+.after-svg.banner_300:after{
+    content: url('./images/svg/banner_300.svg');
 }
 .after-svg.achievement:after{
     content: url('./images/svg/achievement-svg.svg');
@@ -89,3 +113,4 @@ footer{
     right: 50px;
     left: auto;
 }
+

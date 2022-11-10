@@ -7,6 +7,7 @@ module.exports = {
     ],
     theme: {
         extend: {},
+       
         fontFamily: {
             display: ["'Public Sans', sans-serif"],
         },
@@ -32,8 +33,10 @@ module.exports = {
             'gray-700': '#363A3D',
             'gray-600': '#52565C',
             'gray-500': '#6D737A',
-            'gray-custom': '#E7E9EB',
             'gray-black': '#1B1D1F',
+            'gray-50': '#E7E9EB',
+            'gray-white': '#FFFFFF',
+            'gray-custom': '#E7E9EB',
             'pink-200': '#FFEEF0',
             'blue-200': '#F0F7FF'
         },
