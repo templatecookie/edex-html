@@ -29,3 +29,16 @@ footer{
     transition: all 0.5s ease;
     color: var(--primary-900);
 }
+
+.course-item{
+
+    
+}
+
+.course-item:hover link{
+    color: red;
+        }
+
+        .course-item:hover.link svg{
+            background: #000;
+        }
