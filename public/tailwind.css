@@ -517,8 +517,8 @@ video {
   width: 100%;
   margin-right: auto;
   margin-left: auto;
-  padding-right: .75rem;
-  padding-left: .75rem;
+  padding-right: .0rem;
+  padding-left: .0rem;
 }
 
 @media (min-width: 600px) {
@@ -2016,6 +2016,10 @@ video {
   padding-bottom: 1.5rem;
 }
 
+.pr-14 {
+  padding-right: 3.5rem;
+}
+
 .pl-4 {
   padding-left: 1rem;
 }
@@ -2032,16 +2036,16 @@ video {
   padding-bottom: 19px;
 }
 
-.pt-\[100px\] {
-  padding-top: 100px;
-}
-
-.pb-8 {
-  padding-bottom: 2rem;
+.pt-4 {
+  padding-top: 1rem;
 }
 
 .pb-20 {
   padding-bottom: 5rem;
+}
+
+.pt-\[50px\] {
+  padding-top: 50px;
 }
 
 .text-left {
@@ -2252,10 +2256,6 @@ video {
   color: rgb(27 29 31 / var(--tw-text-opacity));
 }
 
-.text-\[\#336699\]\/\[\.35\] {
-  color: rgb(51 102 153 / .35);
-}
-
 .text-\[\#20B486\] {
   --tw-text-opacity: 1;
   color: rgb(32 180 134 / var(--tw-text-opacity));
@@ -2264,6 +2264,10 @@ video {
 .text-\[\#06241B\] {
   --tw-text-opacity: 1;
   color: rgb(6 36 27 / var(--tw-text-opacity));
+}
+
+.text-\[\#336699\]\/\[\.35\] {
+  color: rgb(51 102 153 / .35);
 }
 
 .underline {
@@ -2666,8 +2670,8 @@ video {
     width: 100%;
     margin-right: auto;
     margin-left: auto;
-    padding-right: .75rem;
-    padding-left: .75rem;
+    padding-right: .0rem;
+    padding-left: .0rem;
   }
 
   @media (min-width: 600px) {
