@@ -1,6 +1,7 @@
 :root{
     --primary-500: #20B486;
     --primary-900: #06241B;
+    --secondary-500: #FFC27A;
 }
 .section-padding{
     padding: 100px 0px;
@@ -39,6 +40,29 @@ footer{
     color: red;
         }
 
-        .course-item:hover.link svg{
-            background: #000;
-        }
+.course-item:hover.link svg{
+    background: #000;
+}
+
+
+.after-svg{
+    position: relative;
+}
+.after-svg:after{
+    display: inline-block;
+    position: absolute;
+    top: 40%;
+    right: 0;
+}
+.after-svg.instructor:after{
+    content: url(./images/svg/instructor-svg.svg);
+}
+.after-svg.popular:after{
+    content: url('./images/svg/popular-svg.svg');
+}
+.after-svg.banner_5000:after{
+    content: url('./images/svg/banner_5000.svg');
+}
+.after-svg.banner_300:after{
+    content: url('./images/svg/banner_300.svg');
+}

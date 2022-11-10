@@ -18,6 +18,8 @@
 
     
     <!-- css link -->
+    <link href="./public/plugins/css/animate.css" rel="stylesheet">
+    <link href="./public/plugins/css/swipper.css" rel="stylesheet">
     <link href="./public/tailwind.css" rel="stylesheet">
     <link href="./public/styles.css" rel="stylesheet">
     <link href="./public/responsive.css" rel="stylesheet">
@@ -111,62 +113,147 @@
 <!-- header area end -->
 
  <!-- banner area  -->
- <section class="bg-white">
-    <div class="container">
+ <section class="bg-white relative">
 
-        <div class="flex justify-between items-center">
-            <!-- left -->
-            <div>
-                <h2 class="font-public_sans text-[#20B486] font-semibold text-2xl pt-[150px] pb-6">START TO SUCCESS
-                </h2>
-                <div class="w-[677px]">
-                    <p
-                        class="capitalize font-public_sans font-semibold text-[56px] leading-[72px] text-[#06241B] pb-6">
-                        Access To <b class="text-green-600 font-bold">5000+</b> Courses
-                        from <b class="text-green-600 font-bold">300</b> Instructors
-                        & Institutions
-                    </p>
-                </div>
-                <p class="text-[#6D737A] font-public_sans text-[20px] leading-7 pb-8">Various versions have
-                    evolved over the years, sometimes by accident,</p>
-                <form action="">
-                    <div class="relative flex justify-between items-center">
+   <!-- svg icon start -->
+      
 
-                        <input type="text"
-                            class=" bg-indigo-500 px-6 py-6 w-[648px] shadow-[-4px_-4px_44px_rgba(0,0,0,0.08)] focus:none rounded"
-                            placeholder="What do want to learn?">
+            <span class="absolute animate-bounce left-[240px] top-[102px]">
+                <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M19.5046 24.6797L16.8046 32.0063C16.7247 32.2216 16.5808 32.4073 16.3923 32.5384C16.2038 32.6695 15.9796 32.7398 15.75 32.7398C15.5203 32.7398 15.2962 32.6695 15.1076 32.5384C14.9191 32.4073 14.7752 32.2216 14.6953 32.0063L11.9953 24.6797C11.9383 24.5251 11.8484 24.3846 11.7319 24.2681C11.6154 24.1516 11.4749 24.0617 11.3203 24.0047L3.99371 21.3047C3.77841 21.2248 3.59273 21.0809 3.4616 20.8924C3.33048 20.7038 3.26019 20.4797 3.26019 20.25C3.26019 20.0204 3.33048 19.7962 3.4616 19.6077C3.59273 19.4191 3.77841 19.2752 3.99371 19.1953L11.3203 16.4953C11.4749 16.4384 11.6154 16.3485 11.7319 16.232C11.8484 16.1154 11.9383 15.975 11.9953 15.8203L14.6953 8.49377C14.7752 8.27847 14.9191 8.09279 15.1076 7.96166C15.2962 7.83054 15.5203 7.76025 15.75 7.76025C15.9796 7.76025 16.2038 7.83054 16.3923 7.96166C16.5808 8.09279 16.7247 8.27847 16.8046 8.49377L19.5046 15.8203C19.5616 15.975 19.6515 16.1154 19.768 16.232C19.8846 16.3485 20.025 16.4384 20.1796 16.4953L27.5062 19.1953C27.7215 19.2752 27.9072 19.4191 28.0383 19.6077C28.1694 19.7962 28.2397 20.0204 28.2397 20.25C28.2397 20.4797 28.1694 20.7038 28.0383 20.8924C27.9072 21.0809 27.7215 21.2248 27.5062 21.3047L20.1796 24.0047C20.025 24.0617 19.8846 24.1516 19.768 24.2681C19.6515 24.3846 19.5616 24.5251 19.5046 24.6797Z" fill="#1A906B"/>
+                    <path d="M24.75 2.25V9" stroke="#1A906B" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M28.125 5.625H21.375" stroke="#1A906B" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M31.5 10.125V14.625" stroke="#1A906B" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M33.75 12.375H29.25" stroke="#1A906B" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                    
+            </span>
+        
+            <span class="absolute animate-pulse left-[752px] top-[160px]">
+                <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="6" cy="6" r="6" fill="#6D39E9"/>
+                    </svg>     
+            </span>
+        
+            <span class="absolute animate-spin right-[882px] top-[136px]">
+        
+                <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M30.991 29.4259L29.5453 40.3888C29.5087 40.6523 29.3925 40.8983 29.212 41.0937C29.0316 41.2892 28.7957 41.4248 28.5359 41.4822C28.2762 41.5396 28.0051 41.5162 27.7591 41.4151C27.5131 41.3139 27.3039 41.1399 27.1596 40.9164L21.2258 31.5856C21.1226 31.4249 20.9859 31.2886 20.8249 31.1859C20.664 31.0833 20.4827 31.0168 20.2935 30.991L9.33059 29.5453C9.06711 29.5088 8.82111 29.3925 8.62566 29.2121C8.4302 29.0316 8.29465 28.7957 8.2372 28.536C8.17976 28.2762 8.20318 28.0051 8.30432 27.7591C8.40546 27.5131 8.57948 27.3039 8.80298 27.1597L18.1338 21.2258C18.2945 21.1227 18.4308 20.9859 18.5335 20.825C18.6361 20.664 18.7026 20.4827 18.7284 20.2936L20.1741 9.33062C20.2106 9.06714 20.3269 8.82114 20.5073 8.62569C20.6878 8.43023 20.9237 8.29468 21.1834 8.23723C21.4432 8.17979 21.7143 8.20321 21.9603 8.30435C22.2063 8.40549 22.4155 8.5795 22.5597 8.80301L28.4936 18.1339C28.5967 18.2945 28.7335 18.4309 28.8944 18.5335C29.0554 18.6362 29.2367 18.7027 29.4258 18.7284L40.3888 20.1741C40.6523 20.2107 40.8983 20.3269 41.0937 20.5074C41.2892 20.6878 41.4247 20.9237 41.4822 21.1835C41.5396 21.4432 41.5162 21.7143 41.415 21.9603C41.3139 22.2063 41.1399 22.4155 40.9164 22.5598L31.5855 28.4936C31.4249 28.5968 31.2885 28.7335 31.1859 28.8945C31.0832 29.0554 31.0167 29.2367 30.991 29.4259V29.4259Z" fill="#FFC27A"/>
+                    </svg>
+                    
+                    
+            </span>
+        
+            <span class="absolute animate-ping right-[21.35%] top-[24px]">
+                <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="7.5" cy="7.5" r="7.5" fill="#FFC27A"/>
+                </svg>    
+            </span>
+        
+            <span class="absolute animate-ping  left-[34px] top-[548px]">
+        
+                <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="5" cy="5" r="5" fill="#ED4459"/>
+                    </svg>
+                    
+                    
+            </span>
 
-                        <span class="absolute float-right left-0">
-                            demo
-                        </span>
-                        <svg class="absolute float-right" width="24" height="24" viewBox="0 0 24 24" fill="none"
-                            xmlns="http://www.w3.org/2000/svg">
-                            <path
-                                d="M10.875 18.75C15.2242 18.75 18.75 15.2242 18.75 10.875C18.75 6.52576 15.2242 3 10.875 3C6.52576 3 3 6.52576 3 10.875C3 15.2242 6.52576 18.75 10.875 18.75Z"
-                                stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                            <path d="M16.4437 16.4437L21 21" stroke="black" stroke-width="1.5"
-                                stroke-linecap="round" stroke-linejoin="round" />
-                        </svg>
+            <span class="absolute animate-bounce bottom-[131px] right-[649px]">
+                <svg width="15" height="16" viewBox="0 0 15 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="7.5" cy="8.02197" r="7.5" fill="#6D39E9"/>
+                    </svg>
+                    
+                    
+            </span>
+
+            
+     
+   <!-- svg icon end -->
+
+    <!-- banner wrapper start -->
+    <div class="banner-wrapper pb-[180px]">
+        <div class="container">
+
+            <div class="flex justify-between">
+                <!-- left -->
+                <div class="pt-[150px]">
+                    <div class="w-[677px]">
+                        <h2 class="font-public_sans text-primary-500 font-semibold text-2xl pb-6">START TO SUCCESS
+                        </h2>
+                        <p class="capitalize font-public_sans font-semibold text-[56px] leading-[72px] text-primary-900">
+                            Access To <span class="text-primary-500 after-svg banner_5000">5000+</span> Courses
+                            from <span class="text-primary-500 after-svg banner_300">300</span> Instructors
+                            & Institutions
+                        </p>
                     </div>
-                </form>
+                    <p class="text-[#6D737A] font-public_sans text-[20px] leading-7 mb-8">Various versions have
+                        evolved over the years, sometimes by accident,</p>
+                    <form action="">
+                        <div class="flex justify-between items-center ">
+    
+                           <div class="relative">
+                            <input type="text" class="px-6 py-6  w-full xl:w-[648px] shadow-[-4px_-4px_44px_rgba(0,0,0,0.08)] rounded focus:outline-none focus:ring-1 focus:ring-primary-500 transition duration-300 ease-in-out"
+                            placeholder="What do want to learn?">
+                            <span class="absolute top-6 right-6">
 
-            </div>
-            <!-- left -->
+                                <svg class="" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M10.875 18.75C15.2242 18.75 18.75 15.2242 18.75 10.875C18.75 6.52576 15.2242 3 10.875 3C6.52576 3 3 6.52576 3 10.875C3 15.2242 6.52576 18.75 10.875 18.75Z"
+                                    stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                <path d="M16.4437 16.4437L21 21" stroke="black" stroke-width="1.5"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
 
-            <!-- right -->
-            <div class="">
-                <div class="absolute z-50">
-                    <img src="img/Frame 12.png" alt="">
+                            </span>
+                           </div>
+
+                            
+                            
+                        </div>
+                    </form>
+    
                 </div>
-                <div class="absolute z-30">
-                    <img src="img/Frame 18.png" alt="">
-                </div>
-            </div>
-            <!-- right -->
+                <!-- left -->
+    
+                <!-- right -->
+                <div class="mt-[156px]">
+                    <div class="absolute  top-[155px] right-[490px] z-30 rotate-[-5deg]">
+                        <img src="img/Frame 12.png" alt="">
+                    </div>
+                    <span class="absolute top-[206px] right-[507px] overflow-hidden z-30">
+                            <svg width="312" height="543" viewBox="0 0 312 543" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g filter="url(#filter0_f_8_81)">
+                            <rect x="134.599" y="99.3995" width="78.5124" height="337.484" rx="8" transform="rotate(6 134.599 99.3995)" fill="black"/>
+                            </g>
+                            <defs>
+                            <filter id="filter0_f_8_81" x="0.114166" y="0.191223" width="311.776" height="542.259" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                            <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                            <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+                            <feGaussianBlur stdDeviation="50" result="effect1_foregroundBlur_8_81"/>
+                            </filter>
+                            </defs>
+                            </svg>
+                    </span>
 
+                    <div class="absolute right-[250px] top-[156px] z-40 rotate-[4deg]">
+                        <img src="img/Frame 18.png" alt="">
+                    </div>
+                    <span class="absolute top-[207px] right-[156px] animate-pulse">
+                        <svg width="133" height="123" viewBox="0 0 133 123" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M129.565 3.0665C122.861 35.2321 103.672 88.7725 80.5502 45.6094C51.6481 -8.34447 46.9199 63.7019 44.5824 95.5299C44.7666 93.6398 41.0855 165.407 3.60982 68.6392" stroke="#FFC27A" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                            
+                    </span>
+                </div>
+                <!-- right -->
+    
+            </div>
+           
         </div>
-
     </div>
+    <!-- banner wrapper end -->
 
 </section>
 <!-- banner area end -->
@@ -177,7 +264,7 @@
         <div class="py-[100px] flex gap-2">
             <div class="w-[310px] ">
                 <h1 class="font-semibold text-[56px] leading-[72px] text-[#20B486] pt-[201px]"><b
-                        class="text-[#06241B]">Most</b> Popular
+                        class="text-[#06241B]">Most</b> <span class="text-primary-500 after-svg popular">Popular</span>
                     Course</h1>
             </div>
 
@@ -585,6 +672,19 @@
 </section>
 <!-- course area end -->
    
+    
+    <!-- intructor section start -->
+    <section class="section-padding bg-secondary-50">
+        <div class="container">
+            <h2 class="text-primary-900 text-[40px] leading-[48px] font-semibold font-display">Our Best <span class="text-primary-500 after-svg instructor">Instructor</span></h2>
+        </div>
+    </section>
+    <!-- intructor section end -->
+
+    
+    <script src="./public/plugins/js/jquery.js"></script>
+    <script src="./public/plugins/js/swipper.js"></script>
+    <script src="./public/plugins/js/counter.js"></script>
 </body>
 
 </html>
