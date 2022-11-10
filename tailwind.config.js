@@ -23,13 +23,19 @@ module.exports = {
         },
         colors: {
             current: 'currentColor',
+            white: '#FFFFFF',
+            black: '#000000',
+            'primary-50': '#E9F8F3',
             'primary-500':'#20B486',
             'primary-900':'#06241B',
             'secondary-50': '#FFFAF5',
             'gray-700': '#363A3D',
             'gray-600': '#52565C',
             'gray-500': '#6D737A',
-            'gray-black': '#1B1D1F'
+            'gray-custom': '#E7E9EB',
+            'gray-black': '#1B1D1F',
+            'pink-200': '#FFEEF0',
+            'blue-200': '#F0F7FF'
         },
     },
     plugins: [],
