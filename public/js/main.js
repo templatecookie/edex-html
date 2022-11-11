@@ -31,7 +31,7 @@ var swiper = new Swiper(".courseSwipper", {
 var swiper2 = new Swiper(".instructorSwipper", {
     cssMode: true,
     slidesPerView: 1,
-    spaceBetween: 24,
+    spaceBetween: 16,
     navigation: {
         nextEl: ".swiper-button-next",
         prevEl: ".swiper-button-prev",
@@ -44,19 +44,19 @@ var swiper2 = new Swiper(".instructorSwipper", {
     breakpoints: {
         640: {
             slidesPerView: 2,
-            spaceBetween: 20,
+            spaceBetween: 16,
         },
         991: {
             slidesPerView: 3,
-            spaceBetween: 40,
+            spaceBetween: 20,
         },
         1200: {
             slidesPerView: 3,
-            spaceBetween: 50,
+            spaceBetween: 24,
         },
         1500: {
             slidesPerView: 4,
-            spaceBetween: 50,
+            spaceBetween: 24,
         },
     },
     mousewheel: true,

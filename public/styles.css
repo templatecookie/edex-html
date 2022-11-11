@@ -1,55 +1,55 @@
 :root {
-    --primary-500: #20B486;
-    --primary-900: #06241B;
-    --secondary-500: #FFC27A;
-    --gray-100: #CFD3D6;
+  --primary-500: #20B486;
+  --primary-900: #06241B;
+  --secondary-500: #FFC27A;
+  --gray-100: #CFD3D6;
 }
 
 .section-padding {
-    padding: 100px 0px;
+  padding: 100px 0px;
 }
 
 .section-padding.instructor-section {
-    padding-bottom: 170px;
+  padding-bottom: 170px;
 }
 
 body {
-    position: relative;
+  position: relative;
 }
 
 footer {
-    padding: 100px 0px 50px;
+  padding: 100px 0px 50px;
 }
 
 .btn-primary {
-    font-family: 'Public Sans';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.50;
-    text-align: center;
-    cursor: pointer;
-    color: #FFFFFF;
-    padding: 12px 24px;
-    border: 1px solid transparent;
-    background: var(--primary-500);
-    border-radius: 8px;
-    transition: all 0.5s ease;
+  font-family: 'Public Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.50;
+  text-align: center;
+  cursor: pointer;
+  color: #FFFFFF;
+  padding: 12px 24px;
+  border: 1px solid transparent;
+  background: var(--primary-500);
+  border-radius: 8px;
+  transition: all 0.5s ease;
 }
 
 .btn-primary:hover {
-    border: 1px solid var(--primary-500);
-    background: transparent;
-    transition: all 0.5s ease;
-    color: var(--primary-900);
+  border: 1px solid var(--primary-500);
+  background: transparent;
+  transition: all 0.5s ease;
+  color: var(--primary-900);
 }
 
 .course-item:hover link {
-    color: red;
+  color: red;
 }
 
 .course-item:hover.link svg {
-    background: #000;
+  background: #000;
 }
 
 
@@ -160,43 +160,42 @@ footer {
 }
 
 .hamburger-btn:hover span:nth-child(3) {
-    right: 3px;
+  right: 3px;
 }
 
 .nav-menu {
-    position: fixed;
-    right: 0;
-    top: 0;
-    width: 80%;
-    height: 100%;
-    -webkit-transform: translateX(calc(100% + 80px));
-    -moz-transform: translateX(calc(100% + 80px));
-    -ms-transform: translateX(calc(100% + 80px));
-    -o-transform: translateX(calc(100% + 80px));
-    transform: translateX(calc(100% + 80px));
-    background: white none repeat scroll 0 0;
-    -webkit-transition: transform 0.45s ease-in-out,
-        opacity 0.45s ease-in-out;
-    -moz-transition: transform 0.45s ease-in-out,
-        opacity 0.45s ease-in-out;
-    transition: transform 0.45s ease-in-out,
-        opacity 0.45s ease-in-out;
-    z-index: 999;
-    overflow-y: scroll;
-    overscroll-behavior-y: contain;
-    scrollbar-width: none;
-    z-index: 9999999;
-    background-color: white;
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 80%;
+  height: 100%;
+  -webkit-transform: translateX(calc(100% + 80px));
+  -moz-transform: translateX(calc(100% + 80px));
+  -ms-transform: translateX(calc(100% + 80px));
+  -o-transform: translateX(calc(100% + 80px));
+  transform: translateX(calc(100% + 80px));
+  background: white none repeat scroll 0 0;
+  -webkit-transition: transform 0.45s ease-in-out,
+    opacity 0.45s ease-in-out;
+  -moz-transition: transform 0.45s ease-in-out,
+    opacity 0.45s ease-in-out;
+  transition: transform 0.45s ease-in-out,
+    opacity 0.45s ease-in-out;
+  z-index: 999;
+  overflow-y: scroll;
+  overscroll-behavior-y: contain;
+  scrollbar-width: none;
+  z-index: 9999999;
+  background-color: white;
 }
 
 .nav-menu.open {
-    -webkit-transform: translateX(0);
-    -moz-transform: translateX(0);
-    -ms-transform: translateX(0);
-    -o-transform: translateX(0);
-    transform: translateX(0);
-    opacity: 1;
-
+  -webkit-transform: translateX(0);
+  -moz-transform: translateX(0);
+  -ms-transform: translateX(0);
+  -o-transform: translateX(0);
+  transform: translateX(0);
+  opacity: 1;
 }
 
 .overlay {
@@ -221,19 +220,94 @@ footer {
     visibility: visible;
 }
 
+.instructor-card {
+  position: relative;
+  transition: all 0.5s ease-out 0s;
+  -webkit-transition: all 0.5s ease-out 0s;
+  -moz-transition: all 0.5s ease-out 0s;
+  -ms-transition: all 0.5s ease-out 0s;
+  -o-transition: all 0.5s ease-out 0s;
+}
+
+.instructor-card:hover {
+  box-shadow: 0px 30px 30px rgb(13 18 30 / 8%);
+  transform: translateY(-20px);
+}
+
+.instructor-card img {
+  position: relative;
+  transition: all 0.5s ease-out 0s;
+  -webkit-transition: all 0.5s ease-out 0s;
+  -moz-transition: all 0.5s ease-out 0s;
+  -ms-transition: all 0.5s ease-out 0s;
+  -o-transition: all 0.5s ease-out 0s;
+}
+
+.instructor-card:hover img {
+  transform: scale(1.2);
+}
+
+.instructor-card h2 {
+  position: relative;
+  transition: all 0.5s ease-out 0s;
+  -webkit-transition: all 0.5s ease-out 0s;
+  -moz-transition: all 0.5s ease-out 0s;
+  -ms-transition: all 0.5s ease-out 0s;
+  -o-transition: all 0.5s ease-out 0s;
+}
+
+.instructor-card:hover h2 {
+  color: var(--primary-500);
+}
+
+.testimonial-card{
+  position: relative;
+  transition: all 0.5s ease-out 0s;
+  -webkit-transition: all 0.5s ease-out 0s;
+  -moz-transition: all 0.5s ease-out 0s;
+  -ms-transition: all 0.5s ease-out 0s;
+  -o-transition: all 0.5s ease-out 0s;
+}
+.testimonial-card:hover{
+  transform: translateY(-15px);
+}
+.testimonial-card::after{
+  transition: all 0.5s ease-out 0s;
+  -webkit-transition: all 0.5s ease-out 0s;
+  -moz-transition: all 0.5s ease-out 0s;
+  -ms-transition: all 0.5s ease-out 0s;
+  -o-transition: all 0.5s ease-out 0s;
+}
+.testimonial-card::after {
+  position: absolute;
+  content: "";
+  left: auto;
+  right: 0;
+  top: -2px;
+  width: 0;
+  height: 4px;
+  background-color: var(--primary-500);
+}
+
+.testimonial-card:hover::after {
+  width: 90%;
+  right: auto;
+  left: 5%;
+  border-radius: 10px;
+}
 
 /* swipper slider css */
 .swiper-container-horizontal>.swiper-pagination-bullets {
-    bottom: -60px;
-    z-index: 9;
+  bottom: -35px;
+  z-index: 9;
 }
 
 .swiper-pagination-bullet {
-    background: var(--gray-100);
+  background: var(--gray-100);
 }
 
 .swiper-pagination-bullet.swiper-pagination-bullet-active {
-    background: var(--primary-500);
+  background: var(--primary-500);
 }
 
 .swiper-button-prev,
@@ -334,3 +408,4 @@ footer {
 }
 
 /* category end */
+
