@@ -54,109 +54,109 @@ footer {
 
 
 .after-svg {
-  position: relative;
+    position: relative;
 }
 
 .after-svg:after {
-  display: inline-block;
-  position: absolute;
-  top: 40%;
-  right: 0;
-  left: 0;
-  overflow: hidden;
+    display: inline-block;
+    position: absolute;
+    top: 40%;
+    right: 0;
+    left: 0;
+    overflow: hidden;
 }
 
 .after-svg.instructor:after {
-  content: url(./images/svg/instructor-svg.svg);
+    content: url(./images/svg/instructor-svg.svg);
 }
 
 .after-svg.popular:after {
-  content: url('./images/svg/popular-svg.svg');
+    content: url('./images/svg/popular-svg.svg');
 }
 
 .after-svg.banner_5000:after {
-  content: url('./images/svg/banner_5000.svg');
+    content: url('./images/svg/banner_5000.svg');
 }
 
 .after-svg.banner_300:after {
-  content: url('./images/svg/banner_300.svg');
+    content: url('./images/svg/banner_300.svg');
 }
 
 .after-svg.achievement:after {
-  content: url('./images/svg/achievement-svg.svg');
+    content: url('./images/svg/achievement-svg.svg');
 }
 
 .after-svg.feedback:after {
-  content: url('./images/svg/feedback-svg.svg');
+    content: url('./images/svg/feedback-svg.svg');
 }
 
 .header-sticky {
-  position: fixed !important;
-  left: 0;
-  margin: auto;
-  top: 0;
-  width: 100%;
-  box-shadow: 0 0 60px 0 rgb(0 0 0 / 7%);
-  z-index: 99;
-  -webkit-animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
-  animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
-  -webkit-box-shadow: 0px 4px 10px rgb(3 4 28 / 10%);
-  box-shadow: 0px 4px 10px rgb(3 4 28 / 10%);
-  background: white;
+    position: fixed !important;
+    left: 0;
+    margin: auto;
+    top: 0;
+    width: 100%;
+    box-shadow: 0 0 60px 0 rgb(0 0 0 / 7%);
+    z-index: 99;
+    -webkit-animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
+    animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
+    -webkit-box-shadow: 0px 4px 10px rgb(3 4 28 / 10%);
+    box-shadow: 0px 4px 10px rgb(3 4 28 / 10%);
+    background: white;
 }
 
 
 /* mobile menu css */
 .hamburger-btn {
-  width: 34px;
-  height: 22px;
-  position: relative;
-  cursor: pointer;
-  background: transparent;
-  border: 0;
-  outline: 0;
-  overflow: hidden;
+    width: 34px;
+    height: 22px;
+    position: relative;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    outline: 0;
+    overflow: hidden;
 }
 
 .hamburger-btn span {
-  display: inline-block;
-  position: absolute;
-  background: var(--primary-900);
-  height: 2px;
-  width: 25px;
-  opacity: 1;
-  z-index: 1;
-  border-radius: 10px;
-  -webkit-transition: all 0.3s ease-out 0s;
-  -moz-transition: all 0.3s ease-out 0s;
-  -ms-transition: all 0.3s ease-out 0s;
-  -o-transition: all 0.3s ease-out 0s;
-  transition: all 0.3s ease-out 0s;
+    display: inline-block;
+    position: absolute;
+    background: var(--primary-900);
+    height: 2px;
+    width: 25px;
+    opacity: 1;
+    z-index: 1;
+    border-radius: 10px;
+    -webkit-transition: all 0.3s ease-out 0s;
+    -moz-transition: all 0.3s ease-out 0s;
+    -ms-transition: all 0.3s ease-out 0s;
+    -o-transition: all 0.3s ease-out 0s;
+    transition: all 0.3s ease-out 0s;
 }
 
 .hamburger-btn:hover span {
-  background: var(--primary-500);
+    background: var(--primary-500);
 }
 
 .hamburger-btn span:nth-child(1) {
-  left: 0px;
-  top: 0px;
+    left: 0px;
+    top: 0px;
 }
 
 .hamburger-btn:hover span:nth-child(1) {
-  left: 12px;
+    left: 12px;
 }
 
 .hamburger-btn span:nth-child(2) {
-  width: 14px;
-  left: 50%;
-  top: 7px;
-  transform: translateX(-50%);
+    width: 14px;
+    left: 50%;
+    top: 7px;
+    transform: translateX(-50%);
 }
 
 .hamburger-btn span:nth-child(3) {
-  top: 14px;
-  right: 0px;
+    top: 14px;
+    right: 0px;
 }
 
 .hamburger-btn:hover span:nth-child(3) {
@@ -199,25 +199,25 @@ footer {
 }
 
 .overlay {
-  background-color: black;
-  height: 100%;
-  width: 100%;
-  position: fixed;
-  top: 0;
-  z-index: 99;
-  left: 0;
-  opacity: 0;
-  visibility: hidden;
-  -webkit-transition: all 0.3s ease-out 0s;
-  -moz-transition: all 0.3s ease-out 0s;
-  -ms-transition: all 0.3s ease-out 0s;
-  -o-transition: all 0.3s ease-out 0s;
-  transition: all 0.3s ease-out 0s;
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+    left: 0;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: all 0.3s ease-out 0s;
+    -moz-transition: all 0.3s ease-out 0s;
+    -ms-transition: all 0.3s ease-out 0s;
+    -o-transition: all 0.3s ease-out 0s;
+    transition: all 0.3s ease-out 0s;
 }
 
 .overlay.open {
-  opacity: 0.7;
-  visibility: visible;
+    opacity: 0.7;
+    visibility: visible;
 }
 
 .instructor-card {
@@ -312,58 +312,100 @@ footer {
 
 .swiper-button-prev,
 .swiper-button-next {
-  bottom: -45px;
-  top: auto;
-  background: #20B486;
-  box-shadow: -4px 4px 20px rgba(32, 180, 134, 0.12);
-  border-radius: 8px;
-  padding: 10px 16px;
-  font-size: 24px;
-  color: white;
+    bottom: -70px;
+    top: auto;
+    background: #20B486;
+    box-shadow: -4px 4px 20px rgba(32, 180, 134, 0.12);
+    border-radius: 8px;
+    padding: 10px 16px;
+    font-size: 24px;
+    color: white;
 }
 
 .swiper-button-disabled {
-  background: #FFFFFF;
-  box-shadow: -4px 4px 20px rgba(32, 180, 134, 0.12);
-  border-radius: 8px;
-  color: var(--primary-900);
+    background: #FFFFFF;
+    box-shadow: -4px 4px 20px rgba(32, 180, 134, 0.12);
+    border-radius: 8px;
+    color: var(--primary-900);
 }
 
 .swiper-button-next {
-  right: 0px;
-  left: auto;
+    right: 0px;
+    left: auto;
 }
 
 .swiper-button-prev {
-  right: 50px;
-  left: auto;
+    right: 50px;
+    left: auto;
 }
 
-.footer-link{
-  position: relative;
-  transition: all 0.3s ease-out 0s;
-  -webkit-transition: all 0.3s ease-out 0s;
-  -moz-transition: all 0.3s ease-out 0s;
-  -ms-transition: all 0.3s ease-out 0s;
-  -o-transition: all 0.3s ease-out 0s;
+/* course area */
+
+.course-card img {
+    /* transform: scale(0); */
+    transition: all .5s ease-in-out;
 }
-.footer-link::before{
-  position: absolute;
-  left: 0;
-  top: 12px;
-  content: " ";
-  display: inline-block;
-  width: 15px;
-  height: 2px;
-  background-color: var(--primary-500);
-  opacity: 0;
-  visibility: hidden;
+
+
+.course-card:hover img {
+    transform: scale(1.1);
+
 }
-.footer-link:hover{
-  color: var(--primary-500);
-  padding-left: 20px;
+
+
+.course-card .link {
+
+    /* color: #6D737A; */
+    transition: all .5s ease-in-out;
+
+    /* opacity: 50%; */
+
 }
-.footer-link:hover::before{
-  opacity: 1;
-  visibility: visible;
+
+.course-card:hover .link {
+
+    background-color: #20B486;
+    /* color: #6D737A; */
+    transition: all .5s ease-in-out;
+
+
 }
+
+.course-card:hover .link svg path {
+    /* transform: scale(1.1); */
+    stroke: #fff;
+
+}
+
+/* course end */
+
+
+/* category start */
+
+
+.category-card {
+    border: transparent;
+   
+
+}
+.category-card:hover {
+    border: 1px solid #20B486;
+    
+
+}
+
+.category-card:hover .left-icon svg path {
+
+    stroke: black;
+
+}
+
+.category-card:hover .right-icon {
+
+    background-color: #20B486;
+    border-radius: 8px;
+    color: #fff;
+}
+
+/* category end */
+
