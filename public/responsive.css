@@ -26,3 +26,10 @@
     padding: 32px 0px;
   }
 }
+
+@media (max-width:480px) {
+    
+    .swiper-container-horizontal>.swiper-pagination-bullets {
+        bottom: -2px;
+    }
+}
