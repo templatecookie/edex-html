@@ -41,3 +41,29 @@
     padding: 32px 0px;
   }
 }
+
+@media (max-width:480px) {
+    
+    .swiper-container-horizontal>.swiper-pagination-bullets {
+        bottom: -2px;
+    }
+
+    .swiper-button-prev, .swiper-button-next {
+        bottom: -64px;
+    }
+    
+    
+    .swiper-button-prev {
+        right: 175px;
+        left: auto;
+    }
+    
+    .swiper-button-next {
+        right: 120px;
+        left: auto;
+    }
+
+    .section-padding {
+        padding: 0 0 90px 0px;
+    }
+}

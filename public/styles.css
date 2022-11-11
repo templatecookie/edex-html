@@ -105,7 +105,6 @@ footer {
     background: white;
 }
 
-
 /* mobile menu css */
 .hamburger-btn {
     width: 34px;
@@ -376,6 +375,9 @@ footer {
 .course-card img {
     transition: all .5s ease-in-out;
 }
+.course-card  {
+   cursor: pointer;
+}
 .course-card:hover img {
     transform: scale(1.1);
 }
@@ -395,11 +397,11 @@ footer {
 
 /* category start */
 
-
 .category-card {
-    border: 1px solid transparent;
+    border:1px solid transparent;
 }
 .category-card:hover {
+    cursor: pointer;
     border: 1px solid #20B486;
 }
 .category-card:hover .left-icon svg path {
