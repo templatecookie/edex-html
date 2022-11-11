@@ -21,6 +21,20 @@
   .section-padding.achievement-section {
     padding-bottom: 90px;
   }
+  .swiper-container-horizontal>.swiper-pagination-bullets{
+    bottom: 0px;
+  }
+  .swiper-button-prev,
+  .swiper-button-next{
+    bottom: -65px;
+  }
+  .swiper-button-prev{
+    right: calc( 50% + 50px);
+  }
+  .swiper-button-next{
+    right: 30%;
+    transform: translateX(-50%);
+  }
 }
 @media (max-width:525px) {
   .section-padding {
