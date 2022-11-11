@@ -17,7 +17,8 @@
   .section-padding {
     padding: 40px 0px;
   }
-  .section-padding.instructor-section {
+  .section-padding.instructor-section,
+  .section-padding.achievement-section {
     padding-bottom: 90px;
   }
 }

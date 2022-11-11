@@ -312,7 +312,7 @@ footer {
 
 .swiper-button-prev,
 .swiper-button-next {
-    bottom: -70px;
+    bottom: -45px;
     top: auto;
     background: #20B486;
     box-shadow: -4px 4px 20px rgba(32, 180, 134, 0.12);
@@ -339,42 +339,55 @@ footer {
     left: auto;
 }
 
-/* course area */
-
-.course-card img {
-    /* transform: scale(0); */
-    transition: all .5s ease-in-out;
+.footer-link{
+  position: relative;
+  transition: all 0.3s ease-out 0s;
+  -webkit-transition: all 0.3s ease-out 0s;
+  -moz-transition: all 0.3s ease-out 0s;
+  -ms-transition: all 0.3s ease-out 0s;
+  -o-transition: all 0.3s ease-out 0s;
+}
+.footer-link:hover{
+  color: var(--primary-500);
+  padding-left: 25px;
+}
+.footer-link:after{
+  position: absolute;
+  left: 0;
+  top: 12px;
+  content: "";
+  width: 20px;
+  height: 2px;
+  opacity: 0;
+  visibility: hidden;
+  background-color: var(--primary-500);
+  transition: all 0.5s ease-out 0s;
+  -webkit-transition: all 0.5s ease-out 0s;
+  -moz-transition: all 0.5s ease-out 0s;
+  -ms-transition: all 0.5s ease-out 0s;
+  -o-transition: all 0.5s ease-out 0s;
+}
+.footer-link:hover::after{
+  opacity: 1;
+  visibility: visible;
 }
 
-
+/* course area */
+.course-card img {
+    transition: all .5s ease-in-out;
+}
 .course-card:hover img {
     transform: scale(1.1);
-
 }
-
-
 .course-card .link {
-
-    /* color: #6D737A; */
     transition: all .5s ease-in-out;
-
-    /* opacity: 50%; */
-
 }
-
 .course-card:hover .link {
-
     background-color: #20B486;
-    /* color: #6D737A; */
     transition: all .5s ease-in-out;
-
-
 }
-
 .course-card:hover .link svg path {
-    /* transform: scale(1.1); */
     stroke: #fff;
-
 }
 
 /* course end */
@@ -384,24 +397,16 @@ footer {
 
 
 .category-card {
-    border: transparent;
-   
-
+    border: 1px solid transparent;
 }
 .category-card:hover {
     border: 1px solid #20B486;
-    
-
 }
-
 .category-card:hover .left-icon svg path {
-
     stroke: black;
-
 }
 
 .category-card:hover .right-icon {
-
     background-color: #20B486;
     border-radius: 8px;
     color: #fff;
