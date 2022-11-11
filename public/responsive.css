@@ -20,6 +20,12 @@
   .section-padding.instructor-section {
     padding-bottom: 90px;
   }
+
+  .md\:px-\[100px\] {
+    /* padding-left: 100px; */
+    padding-right: 100px;
+}
+
 }
 @media (max-width:525px) {
   .section-padding {
@@ -31,5 +37,24 @@
     
     .swiper-container-horizontal>.swiper-pagination-bullets {
         bottom: -2px;
+    }
+
+    .swiper-button-prev, .swiper-button-next {
+        bottom: -64px;
+    }
+    
+    
+    .swiper-button-prev {
+        right: 175px;
+        left: auto;
+    }
+    
+    .swiper-button-next {
+        right: 120px;
+        left: auto;
+    }
+
+    .section-padding {
+        padding: 0 0 90px 0px;
     }
 }

@@ -344,6 +344,10 @@ footer {
     /* transform: scale(0); */
     transition: all .5s ease-in-out;
 }
+.course-card  {
+   cursor: pointer;
+}
+
 
 
 .course-card:hover img {
