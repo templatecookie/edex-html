@@ -196,7 +196,6 @@ footer {
   -o-transform: translateX(0);
   transform: translateX(0);
   opacity: 1;
-
 }
 
 .overlay {
@@ -284,9 +283,9 @@ footer {
   content: "";
   left: auto;
   right: 0;
-  top: 0;
+  top: -2px;
   width: 0;
-  height: 2px;
+  height: 4px;
   background-color: var(--primary-500);
 }
 
@@ -294,6 +293,7 @@ footer {
   width: 90%;
   right: auto;
   left: 5%;
+  border-radius: 10px;
 }
 
 /* swipper slider css */
