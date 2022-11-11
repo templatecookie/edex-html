@@ -3,6 +3,7 @@
   --primary-900: #06241B;
   --secondary-500: #FFC27A;
   --gray-100: #CFD3D6;
+  --gray-500: #6D737A;
 }
 
 .section-padding {
@@ -106,21 +107,17 @@ footer {
 }
 
 /* mobile menu css */
-.hamburger-btn {
-    width: 34px;
-    height: 22px;
-    position: relative;
-    cursor: pointer;
-    background: transparent;
-    border: 0;
-    outline: 0;
-    overflow: hidden;
+@media (max-width:1279px) {
+  .hamburger-btn {
+    display: inline-flex;
+    flex-direction: column;
+    gap: 6px;
+  }
 }
 
 .hamburger-btn span {
     display: inline-block;
-    position: absolute;
-    background: var(--primary-900);
+    background: var(--gray-500);
     height: 2px;
     width: 25px;
     opacity: 1;
@@ -135,31 +132,6 @@ footer {
 
 .hamburger-btn:hover span {
     background: var(--primary-500);
-}
-
-.hamburger-btn span:nth-child(1) {
-    left: 0px;
-    top: 0px;
-}
-
-.hamburger-btn:hover span:nth-child(1) {
-    left: 12px;
-}
-
-.hamburger-btn span:nth-child(2) {
-    width: 14px;
-    left: 50%;
-    top: 7px;
-    transform: translateX(-50%);
-}
-
-.hamburger-btn span:nth-child(3) {
-    top: 14px;
-    right: 0px;
-}
-
-.hamburger-btn:hover span:nth-child(3) {
-  right: 3px;
 }
 
 .nav-menu {
@@ -270,30 +242,7 @@ footer {
 .testimonial-card:hover{
   transform: translateY(-15px);
 }
-.testimonial-card::after{
-  transition: all 0.5s ease-out 0s;
-  -webkit-transition: all 0.5s ease-out 0s;
-  -moz-transition: all 0.5s ease-out 0s;
-  -ms-transition: all 0.5s ease-out 0s;
-  -o-transition: all 0.5s ease-out 0s;
-}
-.testimonial-card::after {
-  position: absolute;
-  content: "";
-  left: auto;
-  right: 0;
-  top: -2px;
-  width: 0;
-  height: 4px;
-  background-color: var(--primary-500);
-}
 
-.testimonial-card:hover::after {
-  width: 90%;
-  right: auto;
-  left: 5%;
-  border-radius: 10px;
-}
 
 /* swipper slider css */
 .swiper-container-horizontal>.swiper-pagination-bullets {
@@ -377,12 +326,25 @@ footer {
 }
 .course-card  {
    cursor: pointer;
+   transition: all .5s ease-in-out;
+}
+.course-card:hover{
+  box-shadow: 0px 0px 72px rgba(0, 0, 0, 0.08);
+  transform: translateY(-10px);
 }
 .course-card:hover img {
     transform: scale(1.1);
 }
 .course-card .link {
     transition: all .5s ease-in-out;
+}
+.course-card .badge{
+  transition: all .5s ease-in-out;
+}
+.course-card:hover .badge{
+  background-color: var(--primary-500);
+  color: white;
+  backdrop-filter: blur(10px);
 }
 .course-card:hover .link {
     background-color: #20B486;
@@ -399,9 +361,16 @@ footer {
 
 .category-card {
     border:1px solid transparent;
+    overflow: hidden;
+    transition: all 0.5s ease-out 0s;
+    -webkit-transition: all 0.5s ease-out 0s;
+    -moz-transition: all 0.5s ease-out 0s;
+    -ms-transition: all 0.5s ease-out 0s;
+    -o-transition: all 0.5s ease-out 0s;
 }
 .category-card:hover {
     cursor: pointer;
+    transform: scale(1.1);
     border: 1px solid #20B486;
 }
 .category-card:hover .left-icon svg path {
