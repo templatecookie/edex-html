@@ -9,7 +9,9 @@
     .swiper-button-next{
         bottom: -50px;
     }
-    .section-padding.instructor-section {
+    .section-padding.course-section,
+    .section-padding.instructor-section,
+    .section-padding.achievement-section {
       padding-bottom: 120px;
     }
     .counter-card .icon svg{
@@ -21,6 +23,7 @@
   .section-padding {
     padding: 40px 0px;
   }
+  .section-padding.course-section,
   .section-padding.instructor-section,
   .section-padding.achievement-section {
     padding-bottom: 90px;

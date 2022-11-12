@@ -10,7 +10,9 @@
   padding: 100px 0px;
 }
 
-.section-padding.instructor-section {
+.section-padding.course-section,
+.section-padding.instructor-section,
+.section-padding.achievement-section {
   padding-bottom: 170px;
 }
 
