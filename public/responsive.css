@@ -12,6 +12,10 @@
     .section-padding.instructor-section {
       padding-bottom: 120px;
     }
+    .counter-card .icon svg{
+      width: 32px;
+      height: 32px;
+    }
 }
 @media (max-width:767px) {
   .section-padding {
@@ -40,29 +44,13 @@
   .section-padding {
     padding: 32px 0px;
   }
+  .counter-card .icon svg {
+    width: 28px;
+    height: 28px;
+  }
 }
 
-@media (max-width:480px) {
-    
-    .swiper-container-horizontal>.swiper-pagination-bullets {
-        bottom: -2px;
-    }
-
-    .swiper-button-prev, .swiper-button-next {
-        bottom: -64px;
-    }
-    
-    
-    .swiper-button-prev {
-        right: 175px;
-        left: auto;
-    }
-    
-    .swiper-button-next {
-        right: 120px;
-        left: auto;
-    }
-
+@media (max-width:480px) {  
     .section-padding {
         padding: 0 0 90px 0px;
     }
