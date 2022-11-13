@@ -31,20 +31,50 @@ footer {
   font-size: 16px;
   line-height: 1.50;
   text-align: center;
+  padding: 12px 20px;
+  border: 1px solid var(--primary-500);
+  border-radius: 8px !important;
+  overflow: hidden;
   cursor: pointer;
-  color: #FFFFFF;
-  padding: 12px 24px;
-  border: 1px solid transparent;
-  background: var(--primary-500);
-  border-radius: 8px;
-  transition: all 0.5s ease;
+  position: relative;
+  -webkit-transition: all 0.5s ease-out 0s;
+  -moz-transition: all 0.5s ease-out 0s;
+  -ms-transition: all 0.5s ease-out 0s;
+  -o-transition: all 0.5s ease-out 0s;
+  transition: all 0.5s ease-out 0s;
 }
 
-.btn-primary:hover {
-  border: 1px solid var(--primary-500);
-  background: transparent;
-  transition: all 0.5s ease;
-  color: var(--primary-900);
+.btn-primary span {
+  display: inline-flex;
+  position: relative;
+  color: white;
+  z-index: 999;
+}
+
+.btn-primary::before {
+  position: absolute;
+  content: "";
+  background-color: var(--primary-500);
+  top: 0;
+  bottom: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  border-radius: 8px;
+  z-index: 5;
+  -webkit-transition: all 0.5s ease-out 0s;
+  -moz-transition: all 0.5s ease-out 0s;
+  -ms-transition: all 0.5s ease-out 0s;
+  -o-transition: all 0.5s ease-out 0s;
+  transition: all 0.5s ease-out 0s;
+}
+
+.btn-primary:hover::before {
+  width: 0%;
+}
+
+.btn-primary:hover span {
+  color: var(--primary-500);
 }
 
 .course-item:hover link {
@@ -57,55 +87,101 @@ footer {
 
 
 .after-svg {
-    position: relative;
+  position: relative;
 }
 
 .after-svg:after {
-    display: inline-block;
-    position: absolute;
-    top: 40%;
-    right: 0;
-    left: 0;
-    overflow: hidden;
+  display: inline-block;
+  position: absolute;
+  top: 40%;
+  right: 0;
+  left: 0;
+  overflow: hidden;
 }
 
 .after-svg.instructor:after {
-    content: url(./images/svg/instructor-svg.svg);
+  content: url(./images/svg/instructor-svg.svg);
 }
 
 .after-svg.popular:after {
-    content: url('./images/svg/popular-svg.svg');
+  content: url('./images/svg/popular-svg.svg');
 }
 
 .after-svg.banner_5000:after {
-    content: url('./images/svg/banner_5000.svg');
+  content: url('./images/svg/banner_5000.svg');
 }
 
 .after-svg.banner_300:after {
-    content: url('./images/svg/banner_300.svg');
+  content: url('./images/svg/banner_300.svg');
 }
 
 .after-svg.achievement:after {
-    content: url('./images/svg/achievement-svg.svg');
+  content: url('./images/svg/achievement-svg.svg');
 }
 
 .after-svg.feedback:after {
-    content: url('./images/svg/feedback-svg.svg');
+  content: url('./images/svg/feedback-svg.svg');
 }
 
 .header-sticky {
-    position: fixed !important;
-    left: 0;
-    margin: auto;
-    top: 0;
-    width: 100%;
-    box-shadow: 0 0 60px 0 rgb(0 0 0 / 7%);
-    z-index: 99;
-    -webkit-animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
-    animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
-    -webkit-box-shadow: 0px 4px 10px rgb(3 4 28 / 10%);
-    box-shadow: 0px 4px 10px rgb(3 4 28 / 10%);
-    background: white;
+  position: fixed !important;
+  left: 0;
+  margin: auto;
+  top: 0;
+  width: 100%;
+  box-shadow: 0 0 60px 0 rgb(0 0 0 / 7%);
+  z-index: 99;
+  -webkit-animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
+  animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
+  -webkit-box-shadow: 0px 4px 10px rgb(3 4 28 / 10%);
+  box-shadow: 0px 4px 10px rgb(3 4 28 / 10%);
+  background: white;
+}
+
+
+.menu-link,
+.nav-link {
+  position: relative;
+}
+
+.menu-link::after,
+.menu-link::before,
+.nav-link::after,
+.nav-link::before {
+  position: absolute;
+  content: "";
+  width: 0;
+  height: 0;
+  transition: .5s;
+}
+
+.menu-link::after,
+.nav-link::after {
+  top: 0px;
+  left: 0px;
+  border-top: 2px solid transparent;
+  border-left: 2px solid transparent;
+}
+
+.menu-link::before,
+.nav-link::before {
+  bottom: 0px;
+  right: 0px;
+  border-bottom: 2px solid transparent;
+  border-right: 2px solid transparent;
+}
+
+.menu-link:hover::after,
+.menu-link:hover::before,
+.nav-link:hover::after,
+.nav-link:hover::before {
+  width: 30px;
+  height: 30px;
+  border-color: var(--primary-500);
+}
+
+.nav-link:hover {
+  padding: 6px 12px;
 }
 
 /* mobile menu css */
@@ -118,22 +194,22 @@ footer {
 }
 
 .hamburger-btn span {
-    display: inline-block;
-    background: var(--gray-500);
-    height: 2px;
-    width: 25px;
-    opacity: 1;
-    z-index: 1;
-    border-radius: 10px;
-    -webkit-transition: all 0.3s ease-out 0s;
-    -moz-transition: all 0.3s ease-out 0s;
-    -ms-transition: all 0.3s ease-out 0s;
-    -o-transition: all 0.3s ease-out 0s;
-    transition: all 0.3s ease-out 0s;
+  display: inline-block;
+  background: var(--gray-500);
+  height: 2px;
+  width: 25px;
+  opacity: 1;
+  z-index: 1;
+  border-radius: 10px;
+  -webkit-transition: all 0.3s ease-out 0s;
+  -moz-transition: all 0.3s ease-out 0s;
+  -ms-transition: all 0.3s ease-out 0s;
+  -o-transition: all 0.3s ease-out 0s;
+  transition: all 0.3s ease-out 0s;
 }
 
 .hamburger-btn:hover span {
-    background: var(--primary-500);
+  background: var(--primary-500);
 }
 
 .nav-menu {
@@ -172,25 +248,25 @@ footer {
 }
 
 .overlay {
-    background-color: black;
-    height: 100%;
-    width: 100%;
-    position: fixed;
-    top: 0;
-    z-index: 99;
-    left: 0;
-    opacity: 0;
-    visibility: hidden;
-    -webkit-transition: all 0.3s ease-out 0s;
-    -moz-transition: all 0.3s ease-out 0s;
-    -ms-transition: all 0.3s ease-out 0s;
-    -o-transition: all 0.3s ease-out 0s;
-    transition: all 0.3s ease-out 0s;
+  background-color: black;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 99;
+  left: 0;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: all 0.3s ease-out 0s;
+  -moz-transition: all 0.3s ease-out 0s;
+  -ms-transition: all 0.3s ease-out 0s;
+  -o-transition: all 0.3s ease-out 0s;
+  transition: all 0.3s ease-out 0s;
 }
 
 .overlay.open {
-    opacity: 0.7;
-    visibility: visible;
+  opacity: 0.7;
+  visibility: visible;
 }
 
 .instructor-card {
@@ -233,7 +309,7 @@ footer {
   color: var(--primary-500);
 }
 
-.testimonial-card{
+.testimonial-card {
   position: relative;
   transition: all 0.5s ease-out 0s;
   -webkit-transition: all 0.5s ease-out 0s;
@@ -241,7 +317,8 @@ footer {
   -ms-transition: all 0.5s ease-out 0s;
   -o-transition: all 0.5s ease-out 0s;
 }
-.testimonial-card:hover{
+
+.testimonial-card:hover {
   transform: translateY(-15px);
 }
 
@@ -262,34 +339,34 @@ footer {
 
 .swiper-button-prev,
 .swiper-button-next {
-    bottom: -45px;
-    top: auto;
-    background: #20B486;
-    box-shadow: -4px 4px 20px rgba(32, 180, 134, 0.12);
-    border-radius: 8px;
-    padding: 10px 16px;
-    font-size: 24px;
-    color: white;
+  bottom: -45px;
+  top: auto;
+  background: #20B486;
+  box-shadow: -4px 4px 20px rgba(32, 180, 134, 0.12);
+  border-radius: 8px;
+  padding: 10px 16px;
+  font-size: 24px;
+  color: white;
 }
 
 .swiper-button-disabled {
-    background: #FFFFFF;
-    box-shadow: -4px 4px 20px rgba(32, 180, 134, 0.12);
-    border-radius: 8px;
-    color: var(--primary-900);
+  background: #FFFFFF;
+  box-shadow: -4px 4px 20px rgba(32, 180, 134, 0.12);
+  border-radius: 8px;
+  color: var(--primary-900);
 }
 
 .swiper-button-next {
-    right: 0px;
-    left: auto;
+  right: 0px;
+  left: auto;
 }
 
 .swiper-button-prev {
-    right: 50px;
-    left: auto;
+  right: 50px;
+  left: auto;
 }
 
-.footer-link{
+.footer-link {
   position: relative;
   transition: all 0.3s ease-out 0s;
   -webkit-transition: all 0.3s ease-out 0s;
@@ -297,11 +374,13 @@ footer {
   -ms-transition: all 0.3s ease-out 0s;
   -o-transition: all 0.3s ease-out 0s;
 }
-.footer-link:hover{
+
+.footer-link:hover {
   color: var(--primary-500);
   padding-left: 25px;
 }
-.footer-link:after{
+
+.footer-link:after {
   position: absolute;
   left: 0;
   top: 12px;
@@ -317,43 +396,52 @@ footer {
   -ms-transition: all 0.5s ease-out 0s;
   -o-transition: all 0.5s ease-out 0s;
 }
-.footer-link:hover::after{
+
+.footer-link:hover::after {
   opacity: 1;
   visibility: visible;
 }
 
 /* course area */
 .course-card img {
-    transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
 }
-.course-card  {
-   cursor: pointer;
-   transition: all .5s ease-in-out;
+
+.course-card {
+  cursor: pointer;
+  transition: all .5s ease-in-out;
 }
-.course-card:hover{
+
+.course-card:hover {
   box-shadow: 0px 0px 72px rgba(0, 0, 0, 0.08);
   transform: translateY(-10px);
 }
+
 .course-card:hover img {
-    transform: scale(1.1);
+  transform: scale(1.1);
 }
+
 .course-card .link {
-    transition: all .5s ease-in-out;
-}
-.course-card .badge{
   transition: all .5s ease-in-out;
 }
-.course-card:hover .badge{
+
+.course-card .badge {
+  transition: all .5s ease-in-out;
+}
+
+.course-card:hover .badge {
   background-color: var(--primary-500);
   color: white;
   backdrop-filter: blur(10px);
 }
+
 .course-card:hover .link {
-    background-color: #20B486;
-    transition: all .5s ease-in-out;
+  background-color: #20B486;
+  transition: all .5s ease-in-out;
 }
+
 .course-card:hover .link svg path {
-    stroke: #fff;
+  stroke: #fff;
 }
 
 /* course end */
@@ -362,28 +450,29 @@ footer {
 /* category start */
 
 .category-card {
-    border:1px solid transparent;
-    overflow: hidden;
-    transition: all 0.5s ease-out 0s;
-    -webkit-transition: all 0.5s ease-out 0s;
-    -moz-transition: all 0.5s ease-out 0s;
-    -ms-transition: all 0.5s ease-out 0s;
-    -o-transition: all 0.5s ease-out 0s;
+  border: 1px solid transparent;
+  overflow: hidden;
+  transition: all 0.5s ease-out 0s;
+  -webkit-transition: all 0.5s ease-out 0s;
+  -moz-transition: all 0.5s ease-out 0s;
+  -ms-transition: all 0.5s ease-out 0s;
+  -o-transition: all 0.5s ease-out 0s;
 }
+
 .category-card:hover {
-    cursor: pointer;
-    transform: scale(1.1);
-    border: 1px solid #20B486;
+  cursor: pointer;
+  transform: scale(1.1);
+  border: 1px solid #20B486;
 }
+
 .category-card:hover .left-icon svg path {
-    stroke: black;
+  stroke: black;
 }
 
 .category-card:hover .right-icon {
-    background-color: #20B486;
-    border-radius: 8px;
-    color: #fff;
+  background-color: #20B486;
+  border-radius: 8px;
+  color: #fff;
 }
 
 /* category end */
-
