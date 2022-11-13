@@ -6,6 +6,16 @@
   --gray-500: #6D737A;
 }
 
+
+/* common css */
+body {
+  position: relative;
+}
+
+footer {
+  padding: 100px 0px 50px;
+}
+
 .section-padding {
   padding: 100px 0px;
 }
@@ -14,14 +24,6 @@
 .section-padding.instructor-section,
 .section-padding.achievement-section {
   padding-bottom: 170px;
-}
-
-body {
-  position: relative;
-}
-
-footer {
-  padding: 100px 0px 50px;
 }
 
 .btn-primary {
@@ -78,7 +80,7 @@ footer {
 }
 
 .course-item:hover.link svg {
-  background: #000;
+  background: black;
 }
 
 .after-svg {
@@ -179,14 +181,6 @@ footer {
 }
 
 /* mobile menu css */
-@media (max-width:1279px) {
-  .hamburger-btn {
-    display: inline-flex;
-    flex-direction: column;
-    gap: 6px;
-  }
-}
-
 .hamburger-btn span {
   display: inline-block;
   background: var(--gray-500);
@@ -263,6 +257,7 @@ footer {
   visibility: visible;
 }
 
+/* instructor card css */
 .instructor-card {
   position: relative;
   transition: all 0.5s ease-out 0s;
@@ -303,6 +298,7 @@ footer {
   color: var(--primary-500);
 }
 
+/* testimonial card css */
 .testimonial-card {
   position: relative;
   transition: all 0.5s ease-out 0s;
@@ -334,7 +330,7 @@ footer {
 .swiper-button-next {
   bottom: -45px;
   top: auto;
-  background: #20B486;
+  background: var(--primary-500);
   box-shadow: -4px 4px 20px rgba(32, 180, 134, 0.12);
   border-radius: 8px;
   padding: 10px 16px;
@@ -343,7 +339,7 @@ footer {
 }
 
 .swiper-button-disabled {
-  background: #FFFFFF;
+  background: white;
   box-shadow: -4px 4px 20px rgba(32, 180, 134, 0.12);
   border-radius: 8px;
   color: var(--primary-900);
@@ -359,6 +355,7 @@ footer {
   left: auto;
 }
 
+/* footer link css */
 .footer-link {
   position: relative;
   transition: all 0.3s ease-out 0s;
@@ -429,7 +426,7 @@ footer {
 }
 
 .course-card:hover .link {
-  background-color: #20B486;
+  background-color: var(--primary-500);
   transition: all .5s ease-in-out;
 }
 
@@ -455,7 +452,7 @@ footer {
 .category-card:hover {
   cursor: pointer;
   transform: scale(1.1);
-  border: 1px solid #20B486;
+  border: 1px solid var(--primary-500);
 }
 
 .category-card:hover .left-icon svg path {
@@ -463,9 +460,9 @@ footer {
 }
 
 .category-card:hover .right-icon {
-  background-color: #20B486;
+  background-color: var(--primary-500);
   border-radius: 8px;
-  color: #fff;
+  color: white;
 }
 
 /* category end */
