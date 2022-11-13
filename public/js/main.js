@@ -90,6 +90,10 @@ $('.counter').counterUp({
     delay: 10,
     time: 1000
 });
+
+
+AOS.init();
+
 var menuBtn = document.getElementById('hamburger-btn');
 var menuBtnClose = document.getElementById('hamburger-btn-close');
 var navMenu = document.getElementById('nav-menu')

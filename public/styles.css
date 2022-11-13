@@ -77,14 +77,9 @@ footer {
   color: var(--primary-500);
 }
 
-.course-item:hover link {
-  color: red;
-}
-
 .course-item:hover.link svg {
   background: #000;
 }
-
 
 .after-svg {
   position: relative;
@@ -137,7 +132,6 @@ footer {
   box-shadow: 0px 4px 10px rgb(3 4 28 / 10%);
   background: white;
 }
-
 
 .menu-link,
 .nav-link {
@@ -321,7 +315,6 @@ footer {
 .testimonial-card:hover {
   transform: translateY(-15px);
 }
-
 
 /* swipper slider css */
 .swiper-container-horizontal>.swiper-pagination-bullets {
