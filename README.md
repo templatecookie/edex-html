@@ -13,7 +13,7 @@ Check the [Live Demo here](https://demo.echotemplate.com/edesk-elearning-tailwin
 
 ## Credits
 - Design by [Solaiman](https://www.linkedin.com/in/)
-- Coded by [Rakibul Islam](https://github.com/Rakib0101) and [Hasib](https://github.com)
+- Coded by [Rakibul Islam](https://github.com/Rakib0101) and [Hasibur Rahman](https://github.com/emon21)
 
 ## License
 The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
