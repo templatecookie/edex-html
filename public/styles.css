@@ -10,10 +10,52 @@
 /* common css */
 body {
   position: relative;
+  overflow-x: hidden;
 }
 
 footer {
   padding: 100px 0px 50px;
+}
+
+@media (min-width: 600px) {
+  .slider-container {
+    max-width: 600px;
+  }
+}
+
+@media (min-width: 728px) {
+  .slider-container {
+    max-width: 728px;
+  }
+}
+
+@media (min-width: 920px) {
+  .slider-container {
+    max-width: 920px;
+  }
+}
+
+@media (min-width: 980px) {
+  .slider-container {
+    max-width: 980px;
+  }
+}
+
+@media (min-width: 1320px) {
+  .slider-container {
+    max-width: 1320px;
+  }
+  .slider-container.extra-width{
+    max-width: 1400px;
+  }
+}
+.slider-container {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+.swiper-slide:first-child{
+  padding-left: 20px !important;
 }
 
 .section-padding {
@@ -307,6 +349,9 @@ footer {
 }
 
 /* swipper slider css */
+.testimonialSwipper .swiper-slide{
+  padding: 50px;
+}
 .swiper-container-horizontal>.swiper-pagination-bullets {
   bottom: -35px;
   z-index: 9;
@@ -340,12 +385,12 @@ footer {
 }
 
 .swiper-button-next {
-  right: 0px;
+  right: 50px;
   left: auto;
 }
 
 .swiper-button-prev {
-  right: 50px;
+  right: 110px;
   left: auto;
 }
 

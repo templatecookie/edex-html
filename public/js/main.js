@@ -2,6 +2,8 @@ var swiper = new Swiper(".courseSwipper", {
     cssMode: true,
     slidesPerView: 1,
     spaceBetween: 0,
+    loop: true,
+    loopFillGroupWithBlank: true,
     navigation: {
         nextEl: ".swiper-button-next",
         prevEl: ".swiper-button-prev",
@@ -32,6 +34,8 @@ var swiper2 = new Swiper(".instructorSwipper", {
     cssMode: true,
     slidesPerView: 1,
     spaceBetween: 16,
+    loop: true,
+    loopFillGroupWithBlank: true,
     navigation: {
         nextEl: ".swiper-button-next",
         prevEl: ".swiper-button-prev",
@@ -67,6 +71,8 @@ var swiper3 = new Swiper(".testimonialSwipper", {
     cssMode: true,
     slidesPerView: 1,
     spaceBetween: 24,
+    loop: true,
+    loopFillGroupWithBlank: true,
     navigation: {
         nextEl: ".swiper-button-next",
         prevEl: ".swiper-button-prev",
