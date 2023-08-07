@@ -1,7 +1,7 @@
 # [templatecookie.com](https://templatecookie.com)
 FREE UI & HTML Templates for Designer and Developer. Lomeyo Labs is a place where a team of design & developers create beautiful templates. Visit [templatecookie.com](https://templatecookie.com) for more updates.
 
-# [eDesk HTML Template](https://edesk-elearning-tailwind.netlify.app/)
+# [eDex HTML Template](https://edesk-elearning-tailwind.netlify.app/)
 
 > eDesk HTML template is a template made for learning or course-related website
 
