@@ -1,13 +1,13 @@
-# [lomeyolabs.com](https://lomeyolabs.com)
-FREE UI & HTML Templates for Designer and Developer. Lomeyo Labs is a place where a team of design & developers create beautiful templates. Visit [lomeyolabs.com](https://lomeyolabs.com) for more updates.
+# [templatecookie.com](https://templatecookie.com)
+FREE UI & HTML Templates for Designer and Developer. Lomeyo Labs is a place where a team of design & developers create beautiful templates. Visit [templatecookie.com](https://templatecookie.com) for more updates.
 
-# [eDesk HTML Template](https://github.com/lomeyolabs/edesk-elearning-tailwind-html-template)
+# [eDesk HTML Template](https://edesk-elearning-tailwind.netlify.app/)
 
-> eDesk html template is a template which made for learning or course related website
+> eDesk HTML template is a template made for learning or course-related website
 
-This project is a html version [eDesk HTML Template](https://github.com/lomeyolabs/edesk-elearning-tailwind-html-template) designed with HTML & CSS. We use tailwindcss framework and some javascripts plugin
+This project is an HTML version [eDesk HTML Template](https://edesk-elearning-tailwind.netlify.app/) designed with HTML & CSS. We use tailwindcss framework and some javascript plugin
 
-Check the [Live Demo here](https://demo.echotemplate.com/edesk-elearning-tailwind-html-template/).
+Check the [Live Demo here](https://edesk-elearning-tailwind.netlify.app/).
 
 ![](screenshot.png)
 
