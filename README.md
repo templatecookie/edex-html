@@ -11,18 +11,13 @@ Check the [Live Demo here](https://edex-elearning-tailwind.netlify.app/).
 
 ## Pages List
 - Home (Landing Page)
-- Course List
-- Course Details
-- About
-- Contact
-- Become an Instructor
-- Authentication
+
 
 ## Framework & Technologies
 - bootstrap
 - scss
 - jQuery
-- slick
+- swiper
 
 ## Credits
 - Design & Developed by [Templatecookie](https://templatecookie.com)
